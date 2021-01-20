@@ -11,8 +11,6 @@ import illustration from "./assets/images/illustration-mockups.svg";
 import bgDeskstop from "./assets/images/bg-desktop.svg";
 import bgMobile from "./assets/images/bg-mobile.svg";
 
-const socialsStyle = { margin: "0 0.5rem" };
-
 export default function App() {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
